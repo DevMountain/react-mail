@@ -6,10 +6,10 @@ export default class Contact extends React.Component {
 
 		return (
 			<ul style={ styles.contactWrapper }>
-				<li style={ styles.name }>{ this.props.name }</li>
-				<li>Company: { this.props.company }</li>
-				<li>Email: { this.props.email }</li>
-				<li>: Phone #: { this.props.phone }</li>
+				<li style={ styles.name }>{ /* contact name */ }</li>
+				<li>Company: { /* contact company */ }</li>
+				<li>Email: { /* contact email */ }</li>
+				<li>: Phone #: { /* contact phone */ }</li>
 			</ul>
 		);
 	}
