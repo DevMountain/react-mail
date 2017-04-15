@@ -17,7 +17,7 @@ Begin by setting up imports, you will need access to the usual React and ReactDO
     * `Draft`
     * `Contacts`
 
-Render a router onto the div with the id of `react-node`. The router should:
+Render a router onto the div with the id of `root`. The router should:
 
 * Implement `browserHistory`
 * Have a root route to the path `"/"` handled by the `App` component.
@@ -39,7 +39,7 @@ import Draft from "./components/Draft";
 import Contacts from "./components/Contacts";
 
 document.addEventListener( "DOMContentLoaded", () => {
-	const reactNode = document.getElementById( "react-node" );
+	const reactNode = document.getElementById( "root" );
 
 	if ( reactNode ) {
 		ReactDOM.render(
